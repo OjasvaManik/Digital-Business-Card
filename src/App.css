@@ -1,0 +1,133 @@
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.app--container {
+  background: #23252C;
+  width: 550px;
+  height: 790px;
+  top: 53px;
+  left: 65px;
+  padding: 44px 117px 44px 116px;
+  /*border: 5px red solid;*/
+  display: flex;
+  justify-content: center;
+}
+
+.app--profile {
+  width: 317px;
+  height: 780px;
+  top: 44px;
+  left: 116px;
+  /*border: 5px red solid;*/
+}
+
+.app--profile__intro {
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+  text-align: center;
+}
+
+.Intro > h1 {
+  font-size: 25px;
+}
+
+.Intro > h4 {
+  font-size: 13px;
+  color: #F3BF99;
+}
+
+.Intro > h5 {
+  font-size: 10px;
+}
+
+.app--profile__picture {
+  width: 317px;
+  height: 317px;
+  top: 44px;
+  left: 116px;
+  border-radius: 10px 10px;
+  background: url("./images/profile-picture.jpg") no-repeat;
+  background-size: cover;
+}
+
+.intro--button {
+  color: #374151;
+  width: 247px;
+  height:34px;
+  top: 467px;
+  left: 150px;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  border-radius: 6px;
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB
+}
+
+.app--profile__email {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.app--profile__section {
+  width: 317px;
+  height: 399px;
+  top: 361px;
+  left: 116px;
+  background: #1A1B21;
+}
+
+.app--profile__about {
+  width: 247px;
+  height: 201px;
+  top: 535px;
+  left: 152px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 32px;
+}
+
+.about > h3{
+  font-size: 16px;
+}
+
+.about > h4{
+  font-size: 12px;
+}
+
+.app--profile__footer {
+  width: 317px;
+  height: 64px;
+  top: 760px;
+  left: 116px;
+  gap: 0;
+  border-radius: 0 0 10px 10px;
+  background: #161619;
+}
+
+.footer-btn {
+    background-image: url(images/Instagram-Icon.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* put the height and width of your image here */
+    height: 50px;
+    width: 200px;
+    border: none;
+}
+.footer-btn span {
+  display: none;
+}
