@@ -119,15 +119,15 @@ body {
   background: #161619;
 }
 
-.footer-btn {
-    background-image: url(images/Instagram-Icon.png);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    /* put the height and width of your image here */
-    height: 50px;
-    width: 200px;
-    border: none;
+.footer > a {
+  font-size: 28px;
+  color:  #918E9B;
 }
-.footer-btn span {
-  display: none;
+
+.footer {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
 }

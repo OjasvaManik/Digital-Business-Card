@@ -14,6 +14,7 @@ function App() {
                     <div className="app--profile__picture">
 
                     </div>
+
                     <div className="app--profile__section">
                         <div className="app--profile__intro">
                             <Intro/>
@@ -27,7 +28,7 @@ function App() {
                     </div>
 
                     <div className="app--profile__footer">
-                    <Footer/>
+                        <Footer/>
                     </div>
                 </div>
             </div>
